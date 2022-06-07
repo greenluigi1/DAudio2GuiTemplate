@@ -1,0 +1,12 @@
+[Application]
+Name=com.greenluigi1.guiExample
+Exec=/appdata/guiExample
+
+[TestAppView]
+# ComponentName : com.greenluigi1.guiExample.TestAppView
+Name=TestAppView
+Type=AppView
+
+[TestEventReceiver]
+Type=EventReceiver
+Event=com.mobis.caudio.ACTION.DOOR_OPEN
